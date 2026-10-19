@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laonion Metrics</title>
+<meta name="description" content="Laonion Metrics: a private, read-only tool that shows the YouTube statistics of its owner's channel on a personal dashboard.">
+<style>
+  body { margin: 0; background: #f6f1e7; color: #1f1d1a; font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2.1em; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2em; margin: 32px 0 8px; }
+  .tag { margin: 0 0 28px; color: #5b554c; }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  a { color: #1d5c8c; }
+  code { font: 0.85em Consolas, "Courier New", monospace; background: #ebe3d3; padding: 1px 4px; border-radius: 3px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #d8cfbe; font-size: 0.9em; color: #5b554c; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Laonion Metrics</h1>
+  <p class="tag">A private, read-only statistics tool for one YouTube channel.</p>
+
+  <p>
+    Laonion Metrics reads the YouTube statistics of its owner's own channel,
+    <a href="https://www.youtube.com/@CogsAndCurves">Cogs &amp; Curves</a>, and shows them on a personal dashboard.
+    It runs on the owner's computer and is not offered to the public: the only user is the channel owner.
+  </p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Shows subscribers, views, watch time, average percentage viewed, and thumbnail impressions and click-through
+      rate for the owner's channel and its videos.</li>
+    <li>Uses the YouTube Data API v3, the YouTube Analytics API and the YouTube Reporting API with read-only access
+      (<code>youtube.readonly</code> and <code>yt-analytics.readonly</code>).</li>
+    <li>Reads data only from the owner's channel, and only after the owner signs in with Google and grants access.</li>
+    <li>Keeps the data on the owner's computer. Nothing is shared, sold or sent to third parties.</li>
+  </ul>
+
+  <h2>What it does not do</h2>
+  <ul>
+    <li>It cannot upload, edit, delete, comment on or publish anything on YouTube.</li>
+    <li>It does not access other people's channels or accounts.</li>
+    <li>It does not use cookies, ads or trackers.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>
+    Read the <a href="privacy.html">Privacy Policy</a> to see what data is accessed, how it is stored and how to
+    revoke access.
+  </p>
+
+  <footer>
+    <p>
+      Laonion Metrics uses YouTube API Services. See the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+      <a href="https://www.google.com/policies/privacy">Google Privacy Policy</a>.
+      Laonion Metrics is not affiliated with or endorsed by YouTube or Google.
+    </p>
+    <p>Contact: grjuako18@gmail.com &middot; <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</main>
+</body>
+</html>

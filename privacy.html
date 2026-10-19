@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Laonion Metrics</title>
+<meta name="description" content="Privacy Policy of Laonion Metrics, a private read-only YouTube statistics tool.">
+<style>
+  body { margin: 0; background: #f6f1e7; color: #1f1d1a; font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2em; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2em; margin: 32px 0 8px; }
+  .date { margin: 0 0 28px; color: #5b554c; }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  a { color: #1d5c8c; }
+  code { font: 0.85em Consolas, "Courier New", monospace; background: #ebe3d3; padding: 1px 4px; border-radius: 3px; word-break: break-all; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #d8cfbe; font-size: 0.9em; color: #5b554c; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="date">Laonion Metrics &middot; Last updated: October 19, 2026</p>
+
+  <p>
+    Laonion Metrics is a private tool that the owner of the YouTube channel
+    <a href="https://www.youtube.com/@CogsAndCurves">Cogs &amp; Curves</a> runs on their own computer to see the
+    channel's statistics on a personal dashboard. It is not offered to the public: the only user is the channel owner.
+    See the <a href="index.html">home page</a> for what it does.
+  </p>
+
+  <h2>YouTube API Services</h2>
+  <p>
+    Laonion Metrics uses YouTube API Services. By connecting it, you agree to the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described
+    in the <a href="https://www.google.com/policies/privacy">Google Privacy Policy</a>.
+  </p>
+
+  <h2>What data it accesses</h2>
+  <p>
+    Only after the owner signs in with Google and grants access, and only for the owner's own channel (the tool
+    rejects access to any other channel). It requests two read-only scopes:
+    <code>https://www.googleapis.com/auth/youtube.readonly</code> and
+    <code>https://www.googleapis.com/auth/yt-analytics.readonly</code>.
+  </p>
+  <ul>
+    <li><strong>YouTube Data API v3:</strong> channel ID and name, subscriber count, total views, and the channel's
+      uploaded videos (ID, title, publish date, duration and view count).</li>
+    <li><strong>YouTube Analytics API:</strong> aggregate statistics for the channel and its videos, by day and by
+      format (long videos or Shorts): views, watch time, average percentage viewed, and subscribers gained and lost.</li>
+    <li><strong>YouTube Reporting API:</strong> the channel's daily reach report (thumbnail impressions and
+      click-through rate). To receive it, the tool creates one reporting job for the channel; this does not change the
+      channel or its videos.</li>
+    <li><strong>An OAuth access token,</strong> so it can keep reading these statistics without asking the owner to
+      sign in every time.</li>
+  </ul>
+  <p>
+    It does not access personal information about viewers: YouTube Analytics data is aggregated. It cannot upload,
+    edit, delete or publish anything.
+  </p>
+
+  <h2>How the data is used</h2>
+  <p>
+    Only to show the owner's channel statistics on the owner's personal dashboard and to track the channel's progress
+    over time. The data is not used for advertising, profiling or training AI models.
+  </p>
+
+  <h2>Storage and sharing</h2>
+  <ul>
+    <li>The data and the token are stored only on the owner's computer, in local files. They are not uploaded to any
+      server or cloud service.</li>
+    <li>The data is not shared, sold or transferred to anyone. There are no third parties: no third-party analytics,
+      advertising or content.</li>
+    <li>The token is never displayed or written to logs. The tool talks to Google only over HTTPS and its dashboard is
+      reachable only from the owner's own computer.</li>
+    <li>Neither the tool nor these pages use cookies or similar tracking technologies.</li>
+  </ul>
+
+  <h2>How long the data is kept</h2>
+  <p>
+    The statistics are kept while the owner uses the tool, because the dashboard shows how the channel changes over
+    time. The tool refreshes them several times a day with the owner's active authorization. If access is revoked or
+    the tool stops being used, the token and all stored YouTube data are deleted from the computer within 30 days.
+    The owner can delete them at any time.
+  </p>
+
+  <h2>How to revoke access</h2>
+  <p>
+    Open your Google Account's security settings at
+    <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>
+    (also reachable at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>),
+    select <strong>Laonion Metrics</strong> and remove its access. From then on the tool cannot read any data.
+  </p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>
+    Laonion Metrics' use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.
+  </p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, this page is updated and the date at the top changes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or complaints about privacy: grjuako18@gmail.com</p>
+
+  <footer>
+    <p><a href="index.html">Laonion Metrics</a> &middot; Not affiliated with or endorsed by YouTube or Google.</p>
+  </footer>
+</main>
+</body>
+</html>
